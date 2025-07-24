@@ -15,6 +15,12 @@ Then the model predicts if:
 - ✅ No Fault
 - ❌ Bearing Fault
 - ❌ Overheating
+- 
+Output Examples
+- If temperature is too high → shows Overheating
+- If vibration is too high → shows Bearing Fault
+- If all values are normal → shows No Fault
+Result
 
 ## 🚀 How to Run
 
@@ -24,9 +30,3 @@ pip install streamlit scikit-learn joblib numpy
 
 Run the app:
 streamlit run fault detection_app.py
-
-
----
-
-### ✅ Final Step: Share your GitHub link
-Example:https://github.com/Allipilli-Kalpana/Industrial-IoT-Fault-Detection/upload
